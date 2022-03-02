@@ -1,0 +1,23 @@
+import { Country } from "./country";
+
+export function find(by: string, value: string | number, exact?: boolean): null | Country | Country[];
+export function findByArea(area: number): null | Country | Country[];
+export function findByAltSpelling(altSpelling: string, exact?: boolean): null | Country | Country[];
+export function findByBorders(borders: string): null | Country | Country[];
+export function findByCapital(capital: string): null | Country | Country[];
+export function findByCca2(cca2: string): null | Country | Country[];
+export function findByCca3(cca3: string): null | Country | Country[];
+export function findByCioc(cioc: string): null | Country | Country[];
+export function findByCcn3(ccn3: string): null | Country | Country[];
+export function findByCurrency(currency: string): null | Country | Country[];
+export function findByDemonym(demonym: string): null | Country | Country[];
+export function findByIdd(idd: string): null | Country | Country[];
+export function findByLandlocked(landlocked: boolean): null | Country | Country[];
+export function findByLanguage(language: string): null | Country | Country[];
+export function findByNameCommon(name: string, exact?: boolean): null | Country | Country[];
+export function findByNameNative(name: string, exact?: boolean): null | Country | Country[];
+export function findByNameOfficial(name: string, exact?: boolean): null | Country | Country[];
+export function findByRegion(region: string): null | Country | Country[];
+export function findBySubregion(subregion: string): null | Country | Country[];
+export function findByTld(tld: string): null | Country | Country[];
+export function findByTranslation(translation: string, exact?: boolean): null | Country | Country[];
